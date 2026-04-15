@@ -1,27 +1,27 @@
 🚧 Automated Road Damage Classification Using Deep Learning
-!!! Project Overview
+📌 Project Overview
 
 This project is a Deep Learning-based web application that detects and classifies road damage from images into:
 
-Pothole
-Crack
-Manhole
+🕳️ Pothole
+🪨 Crack
+⚙️ Manhole
 
 The system uses CNN and Transfer Learning models and is deployed using Streamlit for real-time predictions.
 
-!!! Objectives
+🎯 Objectives
 Automate road damage detection
 Reduce manual inspection effort
 Improve road safety and maintenance planning
 Provide real-time predictions via web app
-!!! Technologies Used
+🧠 Technologies Used
 Programming: Python
 Deep Learning: TensorFlow, Keras
 Models: CNN, MobileNetV2, ResNet50, EfficientNetB0
 Visualization: Matplotlib, Seaborn
 Deployment: Streamlit
 Others: NumPy, PIL, Scikit-learn
-!!! Project Structure
+📂 Project Structure
 Road-Damage-Classification/
 │
 ├── data/                         # Raw dataset
@@ -32,62 +32,63 @@ Road-Damage-Classification/
 │
 ├── final_model_here.h5           # Trained model
 ├── README.md                     # Project documentation
-!!! Dataset
+📊 Dataset
 Source: RDD2020 / RDD2022 Dataset
 Input: Road images (real-world conditions)
 Classes:
 Class 0 → Pothole
 Class 1 → Crack
 Class 2 → Manhole
-!!! Preprocessing
+🔧 Preprocessing
 Image resizing (224×224)
 Normalization (0–1)
 Data augmentation (flip, rotation, zoom)
 Class imbalance handling (class weights)
-!!! Model Development
+⚙️ Model Development
 Built a baseline CNN model
 Implemented transfer learning models:
-MobileNetV2 (Best Model)
+MobileNetV2 (Best Model ✅)
 ResNet50
 EfficientNetB0
-!!! Training Features
+🔄 Training Features
 Early stopping
 Fine-tuning
 Data augmentation
-!!! Evaluation Metrics
+📈 Evaluation Metrics
 Accuracy
 Precision
 Recall
 F1-score
 Confusion Matrix
-# Web Application Features
-# Upload road image
-# Real-time prediction
-# Confidence score
-# Probability visualization
-# Damage-specific recommendations
-!!! How to Run the Project
-1️ Install Dependencies
+🌐 Web Application Features
+📸 Upload road image
+🤖 Real-time prediction
+📊 Confidence score
+📉 Probability visualization
+🛠️ Damage-specific recommendations
+▶️ How to Run the Project
+1️⃣ Install Dependencies
 pip install -r requirements.txt
-2️ Run Training (Optional)
+2️⃣ Run Training (Optional)
 python model_training.py
-3️ Run Streamlit App
+3️⃣ Run Streamlit App
 streamlit run streamlit_app.py
-!!! Example Output
+💡 Example Output
 Detected Damage: Pothole
 Confidence: 92.45%
 Recommendation: Immediate repair required
-!!! Business Use Cases
-# Smart City Monitoring
-# Road Maintenance Planning
-# Transportation Safety
-# Public Reporting Systems
-# Future Enhancements
+📌 Business Use Cases
+🏙️ Smart City Monitoring
+🚧 Road Maintenance Planning
+🚗 Transportation Safety
+📱 Public Reporting Systems
+🚀 Future Enhancements
 Grad-CAM visualization (Explainable AI)
 Mobile app integration
 Real-time video detection
 Cloud deployment (AWS / Azure / GCP)
 
-!!! Conclusion
+
+⭐ Conclusion
 
 This project demonstrates how Deep Learning + Web Deployment can be used to build a smart, real-time road damage detection system, contributing to safer and smarter infrastructure.
